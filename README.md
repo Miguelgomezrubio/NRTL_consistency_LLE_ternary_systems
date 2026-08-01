@@ -8,6 +8,22 @@ This MATLAB tool generates figures to verify the **thermodynamic consistency** o
 
 The tool reads experimental and calculated equilibrium data from an Excel template and produces visualizations that help assess the quality and consistency of NRTL parameter correlations.
 
+### Related Work and Acknowledgements
+
+This software was independently developed from scratch by Miguel Gomez Rubio as part of his Master's Thesis. No source code from `GMcal_TieLinesLL` has been copied, modified or incorporated into this repository.
+
+The scientific motivation and some of the thermodynamic consistency analyses implemented in this project were informed by the work of the University of Alicante research group responsible for the `GMcal_TieLinesLL` graphical user interface. `GMcal_TieLinesLL` was also used as a scientific reference tool during the academic work.
+
+The software in this repository is an independent implementation with its own source code and workflow. The references to `GMcal_TieLinesLL`, its authors and the University of Alicante do not imply endorsement of this repository or its software.
+
+### References
+
+1. Marcilla et al. “Should we trust all the published LLE correlation parameters in phase equilibria? Necessity of their Assessment Prior to Publication.” *Fluid Phase Equilibria*, 433, 243–252, 2017. DOI: [10.1016/j.fluid.2016.11.009](https://doi.org/10.1016/j.fluid.2016.11.009).
+
+2. Marcilla et al. “Ensuring that Correlation Parameters for Liquid-Liquid Equilibrium Produce the Right Results.” *Journal of Chemical & Engineering Data*, 63(5), 1133–1134, 2018. DOI: [10.1021/acs.jced.8b00260](https://doi.org/10.1021/acs.jced.8b00260).
+
+3. Labarta et al. `GMcal_TieLinesLL`: Graphical User Interface (GUI) for the Topological Analysis of Calculated GM Surfaces and Curves, including Tie-Lines, Hessian Matrix, Spinodal Curve, Plait Point Location and Miscibility Boundaries for Binary and Ternary Liquid-Liquid Equilibrium Data. University of Alicante Institutional Repository, RUA, 2015. [http://hdl.handle.net/10045/51725](http://hdl.handle.net/10045/51725).
+
 ### Generated Figures
 
 1. **gᴹ/RT Surface** - 3D surface plot of the Gibbs excess energy with tie lines
@@ -75,6 +91,22 @@ Esta herramienta de MATLAB genera figuras para verificar la **consistencia termo
 
 La herramienta lee datos de equilibrio experimentales y calculados desde una plantilla Excel y produce visualizaciones que ayudan a evaluar la calidad y consistencia de las correlaciones de parámetros NRTL.
 
+### Trabajo relacionado y reconocimientos
+
+Este software fue desarrollado de manera independiente y desde cero por Miguel Gomez Rubio como parte de su Trabajo Fin de Máster. No se ha copiado, modificado ni incorporado en este repositorio código fuente procedente de `GMcal_TieLinesLL`.
+
+La motivación científica y algunos de los análisis de consistencia termodinámica implementados en este proyecto se apoyan en los trabajos del grupo de investigación de la Universidad de Alicante responsable de la interfaz gráfica `GMcal_TieLinesLL`. Esta herramienta también fue utilizada como referencia científica durante el desarrollo del trabajo académico.
+
+El software incluido en este repositorio constituye una implementación independiente, con código fuente y flujo de trabajo propios. Las referencias a `GMcal_TieLinesLL`, a sus autores y a la Universidad de Alicante no implican que respalden oficialmente este repositorio o su software.
+
+### Referencias
+
+1. Marcilla et al. “Should we trust all the published LLE correlation parameters in phase equilibria? Necessity of their Assessment Prior to Publication.” *Fluid Phase Equilibria*, 433, 243–252, 2017. DOI: [10.1016/j.fluid.2016.11.009](https://doi.org/10.1016/j.fluid.2016.11.009).
+
+2. Marcilla et al. “Ensuring that Correlation Parameters for Liquid-Liquid Equilibrium Produce the Right Results.” *Journal of Chemical & Engineering Data*, 63(5), 1133–1134, 2018. DOI: [10.1021/acs.jced.8b00260](https://doi.org/10.1021/acs.jced.8b00260).
+
+3. Labarta et al. `GMcal_TieLinesLL`: interfaz gráfica para el análisis topológico de superficies y curvas calculadas de energía de Gibbs de mezcla, incluyendo rectas de reparto, matriz hessiana, curva espinodal, localización del punto crítico y fronteras de miscibilidad para sistemas de equilibrio líquido-líquido binarios y ternarios. Repositorio Institucional de la Universidad de Alicante, RUA, 2015. [http://hdl.handle.net/10045/51725](http://hdl.handle.net/10045/51725).
+
 ### Figuras Generadas
 
 1. **Superficie gᴹ/RT** - Gráfico 3D de la energía de Gibbs de exceso con rectas de reparto
@@ -136,7 +168,13 @@ Se pueden configurar tamaños individuales para cada tipo de figura.
 
 ## License / Licencia
 
-MIT License
+This software is licensed under the [PolyForm Strict License 1.0.0](LICENSE).
+
+The license permits certain personal, educational, academic and noncommercial research uses, subject to its complete terms. Please read the `LICENSE` file before using, copying or modifying this software.
+
+Este software se distribuye bajo la [PolyForm Strict License 1.0.0](LICENSE).
+
+La licencia permite determinados usos personales, educativos, académicos y de investigación no comercial, sujetos a sus términos completos. Consulta el archivo `LICENSE` antes de utilizar, copiar o modificar este software.
 
 ## Author / Autor
 
